@@ -2,11 +2,6 @@
 
 This repository contains the configuration files for deploying a MongoDB instance on a Kubernetes cluster.
 
-## Contents
-
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
-
 ## Prerequisites
 
 Before deploying MongoDB, ensure you have the following installed:
