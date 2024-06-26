@@ -15,23 +15,27 @@ Before deploying MongoDB, ensure you have the following installed:
 - Kubectl (Kubernetes command-line tool)
 
 ## Usage
-Start service and check ip address
+Start application
 ```
 minikube start
-kubctl apply -f [###.yaml]
 minikube ip
+(Use the ip and port to access on browser)
 ```
-Check conponents
+
+Get more info
 ```
 kubectl get node
 kubectl get pod
 kubectl get svc
 kubectl get all
 ```
+
 Clean up
 ```
-kubectl stop
+minikube stop
 ```
 
+
 [TechWorld with Nana - Kubernetes Crash Course](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+
 
